@@ -19,7 +19,7 @@ jobs:
           export-secrets-to-outputs: true
           export-secrets-to-environment: true
           static-secrets: |
-            - name: "/my-firts-secret"
+            - name: "/"
               output-name: "my_first_secret"
               api-url: "https://api.akeyless.io"
 
