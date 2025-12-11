@@ -18,7 +18,7 @@ export-secrets-to-environment: true
 static-secrets: |
 - name: "/my-firts-secret"
 output-name: "my_first_secret"
-api-url: "https://csm.thalescryptolabs.com/akeyless-api/v2/"
+api-url: "https://api.akeyless.io"
 - name: Use Akeyless secret (environment variable)
 env:
 SECRET: ${{ env.my_first_secret }}
