@@ -21,7 +21,7 @@ jobs:
           static-secrets: |
             - name: "/my-firts-secret"
               output-name: "my_first_secret"
-              api-url: "https://csm.thalescryptolabs.com/akeyless-api/"
+              api-url: "https://api.akeyless.io"
 
             
       - name: Use Akeyless secret (environment variable)
