@@ -16,12 +16,12 @@ jobs:
         with:
           access-id: '${{ secrets.ACCESS_ID }}'
           access-type: jwt
+          api-url: "https://api.akeyless.io"
           export-secrets-to-outputs: true
           export-secrets-to-environment: true
           static-secrets: |
             - name: "/my-firts-secret"
               output-name: "my_first_secret"
-              api-url: "https://api.akeyless.io"
 
             
       - name: Use Akeyless secret (environment variable)
