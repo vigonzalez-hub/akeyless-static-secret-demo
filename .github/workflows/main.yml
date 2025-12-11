@@ -19,9 +19,9 @@ jobs:
           export-secrets-to-outputs: true
           export-secrets-to-environment: true
           static-secrets: |
-            - name: "/"
+            - name: "/my-firts-secret"
               output-name: "my_first_secret"
-              api-url: "https://api.akeyless.io"
+              api-url: "https://csm.thalescryptolabs.com/akeyless-api/"
 
             
       - name: Use Akeyless secret (environment variable)
